@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './app.css'
 function App() {
+
+  let age = 22
+  let number = 102
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="first-text"> User age is: {age} </p>
+      <p> Random Number is: {number + 5 } </p>
     </div>
   );
 }
